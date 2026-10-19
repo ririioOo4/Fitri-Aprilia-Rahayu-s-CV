@@ -3,111 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Curriculum Vitae Fitri Aprilia Rahayu">
+  <meta name="theme-color" content="#f7e8ed">
   <title>CV | Fitri Aprilia Rahayu</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="cv">
-    <header class="hero">
-      <div class="hero-inner">
-        <img class="profile-photo" src="foto.jpg" alt="Foto formal Fitri Aprilia Rahayu">
-        <div class="hero-text">
-          <p class="eyebrow">Curriculum Vitae</p>
-          <h1>Fitri Aprilia Rahayu</h1>
-          <p class="school">SMA KP BALEENDAH · Kelas XII</p>
-          <p class="hero-note">Pelajar | Pembelajar sepanjang hayat</p>
-        </div>
-      </div>
+  <main class="cv-container">
+    <header class="header">
+      <!-- Foto formal: simpan foto.jpg di folder yang sama dengan index.html -->
+      <img src="foto.jpg" alt="Foto formal Fitri Aprilia Rahayu" class="profile-photo">
+      <h1>Fitri Aprilia Rahayu</h1>
+      <p class="subtitle">Student Profile · Curriculum Vitae</p>
+      <p class="header-description">Pribadi yang menyukai dunia bahasa, literasi, dan proses belajar hal-hal baru.</p>
     </header>
 
     <div class="content">
-      <div class="main-column">
-        <section>
-          <h2>Profil Singkat</h2>
-          <p class="profile">
-            Siswi SMA KP Baleendah yang memiliki minat pada membaca, menulis,
-            pembelajaran bahasa, serta bidang kimia. Senang mengembangkan
-            pengetahuan dan mengeksplorasi pengalaman belajar baru.
-          </p>
+      <aside class="sidebar">
+        <section class="section">
+          <h2 class="section-title"><span class="section-icon">♡</span> Tentang Saya</h2>
+          <div class="info-item"><span class="info-label">Nama Lengkap</span><p class="info-value">Fitri Aprilia Rahayu</p></div>
+          <div class="info-item"><span class="info-label">Umur</span><p class="info-value">17 tahun</p></div>
+          <div class="info-item"><span class="info-label">Tanggal Lahir</span><p class="info-value">8 April 2009</p></div>
+          <div class="info-item"><span class="info-label">Alamat</span><p class="info-value">Kec. Baleendah, Kab. Bandung, Jawa Barat 40375</p></div>
         </section>
 
-        <section>
-          <h2>Pengalaman &amp; Kegiatan</h2>
-          <div class="experience-list">
-            <article class="experience-item">
-              <h3>PMR</h3>
-              <p>Kegiatan ekstrakurikuler</p>
-            </article>
-            <article class="experience-item">
-              <h3>Olimpiade Kimia</h3>
-              <p>Pengalaman akademik</p>
-            </article>
-            <article class="experience-item">
-              <h3>Volunteer</h3>
-              <p>Kegiatan kerelawanan</p>
-            </article>
-            <article class="experience-item">
-              <h3>Seminar Study Abroad</h3>
-              <p>Kegiatan seminar</p>
-            </article>
+        <section class="section">
+          <h2 class="section-title"><span class="section-icon">✿</span> Hobi</h2>
+          <div class="tag-container">
+            <span class="tag">Membaca</span><span class="tag">Menulis</span><span class="tag">Journaling</span>
+            <span class="tag">Belajar Bahasa</span><span class="tag">Mendengarkan Lagu</span><span class="tag">Belajar Hal Baru</span>
           </div>
         </section>
 
-        <section>
-          <h2>Keahlian</h2>
-          <div class="chips">
-            <span class="chip">Bahasa Inggris</span>
-            <span class="chip">Bahasa Italia</span>
-            <span class="chip">Bahasa Mandarin</span>
-            <span class="chip">Komunikasi</span>
-            <span class="chip">Dasar-dasar Kimia</span>
-            <span class="chip">Pembuatan Konten</span>
-          </div>
-        </section>
-      </div>
-
-      <aside class="side-column">
-        <section>
-          <h2>Identitas Diri</h2>
-          <dl class="detail-list">
-            <div class="detail">
-              <dt>Nama</dt>
-              <dd>Fitri Aprilia Rahayu</dd>
-            </div>
-            <div class="detail">
-              <dt>Umur</dt>
-              <dd>17 tahun</dd>
-            </div>
-            <div class="detail">
-              <dt>Tanggal lahir</dt>
-              <dd>8 April 2009</dd>
-            </div>
-            <div class="detail">
-              <dt>Alamat</dt>
-              <dd>Rusunawa Balegede, Jl. Jaksa Naranata, Kec. Baleendah, Kab. Bandung, Prov. Jawa Barat, 40375</dd>
-            </div>
-            <div class="detail">
-              <dt>Sekolah</dt>
-              <dd>SMA KP BALEENDAH</dd>
-            </div>
-          </dl>
-        </section>
-
-        <section>
-          <h2>Hobi &amp; Minat</h2>
-          <ul class="hobby-list">
-            <li>Membaca</li>
-            <li>Belajar bahasa asing</li>
-            <li>Menulis</li>
-            <li>Journaling</li>
-            <li>Menghitung</li>
-          </ul>
+        <section class="section">
+          <h2 class="section-title"><span class="section-icon">✧</span> Keahlian</h2>
+          <div class="skill-item"><span class="skill-name">English — B2</span><span class="skill-note">Kemampuan bahasa Inggris</span></div>
+          <div class="skill-item"><span class="skill-name">Italian — C1</span><span class="skill-note">Kemampuan bahasa Italia</span></div>
+          <div class="skill-item"><span class="skill-name">Indonesian — A2–A1</span><span class="skill-note">Tingkat sesuai data yang diberikan</span></div>
+          <div class="skill-item"><span class="skill-name">HTML Dasar</span></div>
+          <div class="skill-item"><span class="skill-name">Adaptasi</span><span class="skill-note">Beradaptasi dengan baik</span></div>
+          <div class="skill-item"><span class="skill-name">Komunikasi</span></div>
         </section>
       </aside>
-    </div>
 
-    <footer class="footer">Curriculum Vitae · Fitri Aprilia Rahayu</footer>
+      <section class="main-content">
+        <section class="section">
+          <h2 class="section-title"><span class="section-icon">♡</span> Pengalaman &amp; Kegiatan</h2>
+          <div class="timeline">
+            <article class="timeline-item"><span class="experience-type">Organisasi</span><h3>Sekretaris PMR Madya</h3><p>Pengalaman dalam organisasi Palang Merah Remaja tingkat Madya.</p></article>
+            <article class="timeline-item"><span class="experience-type">Ekstrakurikuler</span><h3>Anggota Paduan Suara</h3><p>Berpartisipasi dalam paduan suara sebagai Soprano.</p></article>
+            <article class="timeline-item"><span class="experience-type">Kegiatan Sosial</span><h3>Volunteer ke Panti Asuhan</h3><p>Mengikuti kegiatan sukarelawan di panti asuhan.</p></article>
+            <article class="timeline-item"><span class="experience-type">Seminar</span><h3>Seminar Study Abroad</h3><p>Mengikuti seminar mengenai kesempatan belajar di luar negeri.</p></article>
+          </div>
+        </section>
+        <section class="section">
+          <h2 class="section-title"><span class="section-icon">✧</span> Minat &amp; Pengembangan Diri</h2>
+          <p class="paragraph">Memiliki minat pada pembelajaran bahasa, literasi, dan pengembangan pengetahuan secara mandiri.</p>
+          <p class="paragraph">Tertarik mempelajari hal-hal baru, mengembangkan kemampuan komunikasi, serta mengeksplorasi pengetahuan melalui membaca, menulis, dan belajar otodidak.</p>
+        </section>
+      </section>
+    </div>
+    <footer class="footer">Made with care <span>♡</span><br>Curriculum Vitae · Fitri Aprilia Rahayu</footer>
   </main>
 </body>
 </html>
